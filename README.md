@@ -1,5 +1,6 @@
-# my portfolio
+# [averak.github.io](https://averak.github.io/)
 
+![test](https://github.com/averak/averak.github.io/workflows/test/badge.svg)
 ![code check](https://github.com/averak/averak.github.io/workflows/code%20check/badge.svg)
 ![deploy](https://github.com/averak/averak.github.io/workflows/deploy/badge.svg)
 
