@@ -1,31 +1,49 @@
+<div align="center">
+
 # [averak.github.io](https://averak.github.io/)
 
 ![test](https://github.com/averak/averak.github.io/workflows/test/badge.svg)
 ![code check](https://github.com/averak/averak.github.io/workflows/code%20check/badge.svg)
 ![deploy](https://github.com/averak/averak.github.io/workflows/deploy/badge.svg)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+</div>
 
-## Development server
+This project is my portfolio website with [Angular](https://github.com/angular/angular).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Development
 
-## Code scaffolding
+### Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Node.js](https://nodejs.org/) v14.\*
+- [yarn](https://yarnpkg.com/) v1.\*
 
-## Build
+### Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run following commands.
 
-## Running unit tests
+```sh
+$ git clone <this repo>
+$ cd <this repo>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+$ yarn
+```
 
-## Running end-to-end tests
+### Commands
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+See `scripts` section of [package.json](./package.json)
 
-## Further help
+- `yarn run start` - runs dev server
+- `yarn run build` - exports static files in `./dist`
+- `yarn run test` - runs unit tests
+- `yarn run e2e` - runs end-to-end tests
+- `yarn run check` - checks with code formatting with Prettier, type checking with tsc, linting with ESLint
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contribution
+
+Bug reports and pull requests are welcome.
+
+## Author
+
+- [Averak](https://github.com/averak/)
+- `abe12<at>mccc.jp`
