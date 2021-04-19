@@ -119,8 +119,7 @@ __webpack_require__.r(__webpack_exports__);
 
 class FooterComponent {
     constructor() { }
-    ngOnInit() {
-    }
+    ngOnInit() { }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
 FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 3, vars: 0, consts: [[1, "bg-gray-200"], [1, "p-2", "text-center", "text-xs"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
