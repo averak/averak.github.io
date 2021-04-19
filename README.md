@@ -1,5 +1,8 @@
 # my portfolio
 
+![code check](https://github.com/averak/averak.github.io/workflows/code%20check/badge.svg)
+![deploy](https://github.com/averak/averak.github.io/workflows/deploy/badge.svg)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
 
 ## Development server
